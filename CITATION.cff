@@ -11,3 +11,8 @@ version: 0.1.0
 date-released: 2026-11-18
 license: MIT
 repository-code: "https://github.com/Institute-of-One/breast-microcarti-core"
+doi: "10.5281/zenodo.24329145"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24329146"
+    description: "Version DOI for v0.1.0"
