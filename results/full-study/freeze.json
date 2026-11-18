@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-11-14T09:55:09.544649+00:00",
+  "files": {
+    "docs/FULL_STUDY_RESOURCE_PLAN.md": "7d718f707f4023edec36d452a1bfd898ad20fb9df4475e14642d0596b82c541f",
+    "docs/NEXT_MINIMUM_EXPERIMENT.md": "08100b9107a12e833b0df1911eefdc598ee4fc4ba58c50082fcc0746505d1adf",
+    "configs/pilot-v1.json": "eff6c6b8dd8a8082f150dc753e0fd02e31297546637a7bb39f4233d3737008bd",
+    "study_reconstruct.py": "0c0610c37c54566f3d757cc83e0f1eeb7c0efdb69694e88179035a02c4c96070",
+    "study_models.py": "6baac843cce67d1ae8c023f066f336b2072089ab896e8f12687f8e10fe583aff",
+    "generate_full_study.py": "e23f0e125338e5f91562c05202730d50ed13a56a97bff0544a5da91f1d696ffe"
+  },
+  "device_seconds_cap": 86400,
+  "prior_and_preflight_reserved_seconds": 1800,
+  "deadline_jst": "2026-11-18T18:00:00+09:00",
+  "external_ai_transmission": "NOT_AUTHORIZED"
+}

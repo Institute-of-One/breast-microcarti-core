@@ -1,0 +1,17 @@
+{
+  "frozen_at_utc": "2026-11-14T10:03:06.270869+00:00",
+  "files": {
+    "train_full_study.py": "128414d8dec6f2e2c802c35028c8127a994a7d045ab540dc085b18f115661880",
+    "evaluate_full_study.py": "cce707ceaf0d056fa8e17c2f64912cf665319a47748410738267f50070f71a04",
+    "report_full_study.py": "57331f5e66cc43423f8c4e1bdc9d880780f27cb46dbbbd479fbe22fccb0b2db3",
+    "finish_full_study.py": "6b04ec6e256544312ef1bc01973ee3cbe438f4526a440266bad9bb70a5562e11",
+    "study_models.py": "6baac843cce67d1ae8c023f066f336b2072089ab896e8f12687f8e10fe583aff",
+    "test_full_study.py": "276a2154dac350b3142fff51b90558e3568e62a060507064a6b9e12aba0bb28c"
+  },
+  "local_tests": {
+    "run": 3,
+    "passed": 3,
+    "skipped": 0
+  },
+  "external_ai_review": "NOT_RUN_NO_AUTHORIZATION"
+}

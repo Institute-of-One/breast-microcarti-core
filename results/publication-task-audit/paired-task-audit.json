@@ -1,0 +1,1861 @@
+{
+  "at_utc": "2026-11-15T12:24:41.211832+00:00",
+  "analysis_status": "POST_HOC_EXPLORATORY_SAVED_OUTPUTS_ONLY",
+  "test_ids": [
+    0,
+    1,
+    4,
+    5,
+    24,
+    29,
+    31,
+    41,
+    44,
+    56,
+    60,
+    62,
+    65,
+    71,
+    74,
+    75,
+    78,
+    83,
+    86,
+    90,
+    97,
+    100,
+    104,
+    106,
+    111,
+    133,
+    135,
+    140,
+    153,
+    158,
+    163,
+    167,
+    171,
+    172,
+    173,
+    187,
+    196,
+    197,
+    198,
+    209,
+    212,
+    221,
+    238,
+    241,
+    245,
+    256,
+    265,
+    268,
+    277,
+    280,
+    288,
+    289,
+    290,
+    297,
+    299,
+    304,
+    307,
+    316,
+    317,
+    318,
+    328,
+    337,
+    340,
+    345,
+    346,
+    349,
+    352,
+    354,
+    362,
+    365,
+    368,
+    382,
+    386,
+    397,
+    400,
+    407,
+    419,
+    423,
+    430,
+    436,
+    437,
+    439,
+    444,
+    452,
+    454,
+    459,
+    466,
+    469,
+    471,
+    477
+  ],
+  "sampling_unit": "phantom, stratified by class; 1000 bootstrap replicates",
+  "no_new_inference_training_or_simulation": true,
+  "conditions": [
+    {
+      "frequency_hz": 1000000,
+      "view_noise": "full20",
+      "fixed_05": {
+        "localization_sensitivity": 0.2633333333333333,
+        "fp_per_image": 1.5,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 2.25,
+        "detected_positive_cases": 60,
+        "detected_positive_with_no_matched_particle": 17,
+        "fraction_detected_positive_with_no_matched_particle": 0.2833333333333333,
+        "fraction_detected_positive_with_all_five_matched": 0.016666666666666666,
+        "positive_cases_with_any_match": 43,
+        "matched_particles": 79,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 135
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.20666666666666667,
+            0.3234166666666666
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            1.3111111111111111,
+            1.7222222222222223
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            1.9666666666666666,
+            2.5833333333333335
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            0.18333333333333332,
+            0.4
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.0,
+            0.05
+          ],
+          "valid_replicates": 1000
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.22333333333333333,
+          "fp_per_image": 2.466666666666667,
+          "fp_per_negative_image": 0.1,
+          "fp_per_positive_image": 3.65,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 20,
+          "fraction_detected_positive_with_no_matched_particle": 0.3333333333333333,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 40,
+          "matched_particles": 67,
+          "truth_particles": 300,
+          "fp_negative_total": 3,
+          "fp_positive_total": 219
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.21,
+          "fp_per_image": 2.1333333333333333,
+          "fp_per_negative_image": 0.03333333333333333,
+          "fp_per_positive_image": 3.183333333333333,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 22,
+          "fraction_detected_positive_with_no_matched_particle": 0.36666666666666664,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 38,
+          "matched_particles": 63,
+          "truth_particles": 300,
+          "fp_negative_total": 1,
+          "fp_positive_total": 191
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.21,
+          "fp_per_image": 1.8777777777777778,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 2.816666666666667,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 20,
+          "fraction_detected_positive_with_no_matched_particle": 0.3333333333333333,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 40,
+          "matched_particles": 63,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 169
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.21,
+          "fp_per_image": 1.7,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 2.55,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 23,
+          "fraction_detected_positive_with_no_matched_particle": 0.38333333333333336,
+          "fraction_detected_positive_with_all_five_matched": 0.016666666666666666,
+          "positive_cases_with_any_match": 37,
+          "matched_particles": 63,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 153
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.2633333333333333,
+          "fp_per_image": 1.5,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 2.25,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 17,
+          "fraction_detected_positive_with_no_matched_particle": 0.2833333333333333,
+          "fraction_detected_positive_with_all_five_matched": 0.016666666666666666,
+          "positive_cases_with_any_match": 43,
+          "matched_particles": 79,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 135
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.35333333333333333,
+          "fp_per_image": 1.1444444444444444,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 1.7166666666666666,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 8,
+          "fraction_detected_positive_with_no_matched_particle": 0.13333333333333333,
+          "fraction_detected_positive_with_all_five_matched": 0.03333333333333333,
+          "positive_cases_with_any_match": 52,
+          "matched_particles": 106,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 103
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.38666666666666666,
+          "fp_per_image": 0.9777777777777777,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 1.4666666666666666,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 11,
+          "fraction_detected_positive_with_no_matched_particle": 0.18333333333333332,
+          "fraction_detected_positive_with_all_five_matched": 0.03333333333333333,
+          "positive_cases_with_any_match": 49,
+          "matched_particles": 116,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 88
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.13,
+          "fp_per_image": 0.6,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.9,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 36,
+          "fraction_detected_positive_with_no_matched_particle": 0.6,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 24,
+          "matched_particles": 39,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 54
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.13333333333333333,
+          "fp_per_image": 1.3666666666666667
+        },
+        "ring": {
+          "sensitivity": 0.3933333333333333,
+          "fp_per_image": 3.1333333333333333
+        }
+      }
+    },
+    {
+      "frequency_hz": 1000000,
+      "view_noise": "limited20",
+      "fixed_05": {
+        "localization_sensitivity": 0.47333333333333333,
+        "fp_per_image": 0.4666666666666667,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 0.7,
+        "detected_positive_cases": 56,
+        "detected_positive_with_no_matched_particle": 3,
+        "fraction_detected_positive_with_no_matched_particle": 0.05357142857142857,
+        "fraction_detected_positive_with_all_five_matched": 0.125,
+        "positive_cases_with_any_match": 53,
+        "matched_particles": 142,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 42
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.43,
+            0.5133333333333333
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            0.3333333333333333,
+            0.6
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            0.5,
+            0.9
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            0.0,
+            0.10909090909090909
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.05172413793103448,
+            0.21052631578947367
+          ],
+          "valid_replicates": 1000
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.44333333333333336,
+          "fp_per_image": 0.8777777777777778,
+          "fp_per_negative_image": 0.03333333333333333,
+          "fp_per_positive_image": 1.3,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 0.08928571428571429,
+          "fraction_detected_positive_with_all_five_matched": 0.05357142857142857,
+          "positive_cases_with_any_match": 52,
+          "matched_particles": 133,
+          "truth_particles": 300,
+          "fp_negative_total": 1,
+          "fp_positive_total": 78
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.46,
+          "fp_per_image": 0.7888888888888889,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 1.1833333333333333,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 3,
+          "fraction_detected_positive_with_no_matched_particle": 0.05357142857142857,
+          "fraction_detected_positive_with_all_five_matched": 0.05357142857142857,
+          "positive_cases_with_any_match": 54,
+          "matched_particles": 138,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 71
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.44333333333333336,
+          "fp_per_image": 0.6777777777777778,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 1.0166666666666666,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 2,
+          "fraction_detected_positive_with_no_matched_particle": 0.03571428571428571,
+          "fraction_detected_positive_with_all_five_matched": 0.05357142857142857,
+          "positive_cases_with_any_match": 54,
+          "matched_particles": 133,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 61
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.4633333333333333,
+          "fp_per_image": 0.5444444444444444,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.8166666666666667,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 2,
+          "fraction_detected_positive_with_no_matched_particle": 0.03571428571428571,
+          "fraction_detected_positive_with_all_five_matched": 0.08928571428571429,
+          "positive_cases_with_any_match": 54,
+          "matched_particles": 139,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 49
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.47333333333333333,
+          "fp_per_image": 0.4666666666666667,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.7,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 3,
+          "fraction_detected_positive_with_no_matched_particle": 0.05357142857142857,
+          "fraction_detected_positive_with_all_five_matched": 0.125,
+          "positive_cases_with_any_match": 53,
+          "matched_particles": 142,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 42
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.49,
+          "fp_per_image": 0.28888888888888886,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.43333333333333335,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 7,
+          "fraction_detected_positive_with_no_matched_particle": 0.125,
+          "fraction_detected_positive_with_all_five_matched": 0.23214285714285715,
+          "positive_cases_with_any_match": 49,
+          "matched_particles": 147,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 26
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.29,
+          "fp_per_image": 0.2777777777777778,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.4166666666666667,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 20,
+          "fraction_detected_positive_with_no_matched_particle": 0.35714285714285715,
+          "fraction_detected_positive_with_all_five_matched": 0.017857142857142856,
+          "positive_cases_with_any_match": 36,
+          "matched_particles": 87,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 25
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.006666666666666667,
+          "fp_per_image": 0.011111111111111112,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.016666666666666666,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 54,
+          "fraction_detected_positive_with_no_matched_particle": 0.9642857142857143,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 2,
+          "matched_particles": 2,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 56,
+          "detected_positive_with_no_matched_particle": 56,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.2,
+          "fp_per_image": 0.4666666666666667
+        },
+        "ring": {
+          "sensitivity": 0.7466666666666667,
+          "fp_per_image": 0.9333333333333333
+        }
+      }
+    },
+    {
+      "frequency_hz": 1000000,
+      "view_noise": "full40",
+      "fixed_05": {
+        "localization_sensitivity": 0.0,
+        "fp_per_image": 16.122222222222224,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 24.183333333333334,
+        "detected_positive_cases": 60,
+        "detected_positive_with_no_matched_particle": 60,
+        "fraction_detected_positive_with_no_matched_particle": 1.0,
+        "fraction_detected_positive_with_all_five_matched": 0.0,
+        "positive_cases_with_any_match": 0,
+        "matched_particles": 0,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 1451
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            15.277500000000002,
+            16.988888888888887
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            22.91625,
+            25.483333333333334
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 23.944444444444443,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 35.916666666666664,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 2155
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 19.666666666666668,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 29.5,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1770
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 17.68888888888889,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 26.533333333333335,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1592
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 16.522222222222222,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 24.783333333333335,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1487
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 16.122222222222224,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 24.183333333333334,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1451
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 13.355555555555556,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 20.033333333333335,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1202
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 6.4222222222222225,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 9.633333333333333,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 578
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 6.377777777777778,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 9.566666666666666,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 574
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.0,
+          "fp_per_image": 15.966666666666667
+        },
+        "ring": {
+          "sensitivity": 0.0,
+          "fp_per_image": 32.4
+        }
+      }
+    },
+    {
+      "frequency_hz": 1000000,
+      "view_noise": "limited40",
+      "fixed_05": {
+        "localization_sensitivity": 0.04,
+        "fp_per_image": 8.044444444444444,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 12.066666666666666,
+        "detected_positive_cases": 60,
+        "detected_positive_with_no_matched_particle": 50,
+        "fraction_detected_positive_with_no_matched_particle": 0.8333333333333334,
+        "fraction_detected_positive_with_all_five_matched": 0.0,
+        "positive_cases_with_any_match": 10,
+        "matched_particles": 12,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 724
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.019916666666666673,
+            0.06666666666666667
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            7.344444444444444,
+            8.855833333333333
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            11.016666666666667,
+            13.28375
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            0.7333333333333333,
+            0.9166666666666666
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.02666666666666667,
+          "fp_per_image": 11.622222222222222,
+          "fp_per_negative_image": 0.13333333333333333,
+          "fp_per_positive_image": 17.366666666666667,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 53,
+          "fraction_detected_positive_with_no_matched_particle": 0.8833333333333333,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 7,
+          "matched_particles": 8,
+          "truth_particles": 300,
+          "fp_negative_total": 4,
+          "fp_positive_total": 1042
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.02666666666666667,
+          "fp_per_image": 10.477777777777778,
+          "fp_per_negative_image": 0.03333333333333333,
+          "fp_per_positive_image": 15.7,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 52,
+          "fraction_detected_positive_with_no_matched_particle": 0.8666666666666667,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 8,
+          "matched_particles": 8,
+          "truth_particles": 300,
+          "fp_negative_total": 1,
+          "fp_positive_total": 942
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.02,
+          "fp_per_image": 9.655555555555555,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 14.483333333333333,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 54,
+          "fraction_detected_positive_with_no_matched_particle": 0.9,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 6,
+          "matched_particles": 6,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 869
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.02,
+          "fp_per_image": 9.155555555555555,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 13.733333333333333,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 54,
+          "fraction_detected_positive_with_no_matched_particle": 0.9,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 6,
+          "matched_particles": 6,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 824
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.04,
+          "fp_per_image": 8.044444444444444,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 12.066666666666666,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 50,
+          "fraction_detected_positive_with_no_matched_particle": 0.8333333333333334,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 10,
+          "matched_particles": 12,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 724
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.08,
+          "fp_per_image": 6.188888888888889,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 9.283333333333333,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 37,
+          "fraction_detected_positive_with_no_matched_particle": 0.6166666666666667,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 23,
+          "matched_particles": 24,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 557
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.07666666666666666,
+          "fp_per_image": 4.533333333333333,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 6.8,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 37,
+          "fraction_detected_positive_with_no_matched_particle": 0.6166666666666667,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 23,
+          "matched_particles": 23,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 408
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.08333333333333333,
+          "fp_per_image": 3.7777777777777777,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 5.666666666666667,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 36,
+          "fraction_detected_positive_with_no_matched_particle": 0.6,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 24,
+          "matched_particles": 25,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 340
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.006666666666666667,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 58,
+          "fraction_detected_positive_with_no_matched_particle": 0.9666666666666667,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 2,
+          "matched_particles": 2,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.06,
+          "fp_per_image": 8.333333333333334
+        },
+        "ring": {
+          "sensitivity": 0.02,
+          "fp_per_image": 15.8
+        }
+      }
+    },
+    {
+      "frequency_hz": 3000000,
+      "view_noise": "full20",
+      "fixed_05": {
+        "localization_sensitivity": 0.0,
+        "fp_per_image": 0.0,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 0.0,
+        "detected_positive_cases": 10,
+        "detected_positive_with_no_matched_particle": 10,
+        "fraction_detected_positive_with_no_matched_particle": 1.0,
+        "fraction_detected_positive_with_all_five_matched": 0.0,
+        "positive_cases_with_any_match": 0,
+        "matched_particles": 0,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 0
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.2,
+          "fp_per_negative_image": 0.13333333333333333,
+          "fp_per_positive_image": 0.23333333333333334,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 4,
+          "fp_positive_total": 14
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.044444444444444446,
+          "fp_per_negative_image": 0.06666666666666667,
+          "fp_per_positive_image": 0.03333333333333333,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 2,
+          "fp_positive_total": 2
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.011111111111111112,
+          "fp_per_negative_image": 0.03333333333333333,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 1,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 10,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.0,
+          "fp_per_image": 0.0
+        },
+        "ring": {
+          "sensitivity": 0.0,
+          "fp_per_image": 0.0
+        }
+      }
+    },
+    {
+      "frequency_hz": 3000000,
+      "view_noise": "limited20",
+      "fixed_05": {
+        "localization_sensitivity": 0.0,
+        "fp_per_image": 0.011111111111111112,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 0.016666666666666666,
+        "detected_positive_cases": 5,
+        "detected_positive_with_no_matched_particle": 5,
+        "fraction_detected_positive_with_no_matched_particle": 1.0,
+        "fraction_detected_positive_with_all_five_matched": 0.0,
+        "positive_cases_with_any_match": 0,
+        "matched_particles": 0,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 1
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            0.0,
+            0.03333333333333333
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            0.0,
+            0.05
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "valid_replicates": 996
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 996
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.36666666666666664,
+          "fp_per_negative_image": 0.26666666666666666,
+          "fp_per_positive_image": 0.4166666666666667,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 8,
+          "fp_positive_total": 25
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.18888888888888888,
+          "fp_per_negative_image": 0.16666666666666666,
+          "fp_per_positive_image": 0.2,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 5,
+          "fp_positive_total": 12
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.044444444444444446,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.06666666666666667,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 4
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.044444444444444446,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.06666666666666667,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 4
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.011111111111111112,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.016666666666666666,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 5,
+          "detected_positive_with_no_matched_particle": 5,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.0,
+          "fp_per_image": 0.0
+        },
+        "ring": {
+          "sensitivity": 0.0,
+          "fp_per_image": 0.03333333333333333
+        }
+      }
+    },
+    {
+      "frequency_hz": 3000000,
+      "view_noise": "full40",
+      "fixed_05": {
+        "localization_sensitivity": 0.8933333333333333,
+        "fp_per_image": 0.011111111111111112,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 0.016666666666666666,
+        "detected_positive_cases": 60,
+        "detected_positive_with_no_matched_particle": 0,
+        "fraction_detected_positive_with_no_matched_particle": 0.0,
+        "fraction_detected_positive_with_all_five_matched": 0.6,
+        "positive_cases_with_any_match": 60,
+        "matched_particles": 268,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 1
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.86,
+            0.9266666666666666
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            0.0,
+            0.03333333333333333
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            0.0,
+            0.05
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.48333333333333334,
+            0.7166666666666667
+          ],
+          "valid_replicates": 1000
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.9533333333333334,
+          "fp_per_image": 1.011111111111111,
+          "fp_per_negative_image": 0.2,
+          "fp_per_positive_image": 1.4166666666666667,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 0,
+          "fraction_detected_positive_with_no_matched_particle": 0.0,
+          "fraction_detected_positive_with_all_five_matched": 0.8666666666666667,
+          "positive_cases_with_any_match": 60,
+          "matched_particles": 286,
+          "truth_particles": 300,
+          "fp_negative_total": 6,
+          "fp_positive_total": 85
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.9566666666666667,
+          "fp_per_image": 0.4777777777777778,
+          "fp_per_negative_image": 0.06666666666666667,
+          "fp_per_positive_image": 0.6833333333333333,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 0,
+          "fraction_detected_positive_with_no_matched_particle": 0.0,
+          "fraction_detected_positive_with_all_five_matched": 0.8833333333333333,
+          "positive_cases_with_any_match": 60,
+          "matched_particles": 287,
+          "truth_particles": 300,
+          "fp_negative_total": 2,
+          "fp_positive_total": 41
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.9633333333333334,
+          "fp_per_image": 0.2,
+          "fp_per_negative_image": 0.03333333333333333,
+          "fp_per_positive_image": 0.2833333333333333,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 0,
+          "fraction_detected_positive_with_no_matched_particle": 0.0,
+          "fraction_detected_positive_with_all_five_matched": 0.8833333333333333,
+          "positive_cases_with_any_match": 60,
+          "matched_particles": 289,
+          "truth_particles": 300,
+          "fp_negative_total": 1,
+          "fp_positive_total": 17
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.9566666666666667,
+          "fp_per_image": 0.06666666666666667,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.1,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 0,
+          "fraction_detected_positive_with_no_matched_particle": 0.0,
+          "fraction_detected_positive_with_all_five_matched": 0.8166666666666667,
+          "positive_cases_with_any_match": 60,
+          "matched_particles": 287,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 6
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.8933333333333333,
+          "fp_per_image": 0.011111111111111112,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.016666666666666666,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 0,
+          "fraction_detected_positive_with_no_matched_particle": 0.0,
+          "fraction_detected_positive_with_all_five_matched": 0.6,
+          "positive_cases_with_any_match": 60,
+          "matched_particles": 268,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.7133333333333334,
+          "fp_per_image": 0.06666666666666667,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.1,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 1,
+          "fraction_detected_positive_with_no_matched_particle": 0.016666666666666666,
+          "fraction_detected_positive_with_all_five_matched": 0.3333333333333333,
+          "positive_cases_with_any_match": 59,
+          "matched_particles": 214,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 6
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.3566666666666667,
+          "fp_per_image": 0.044444444444444446,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.06666666666666667,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 19,
+          "fraction_detected_positive_with_no_matched_particle": 0.31666666666666665,
+          "fraction_detected_positive_with_all_five_matched": 0.11666666666666667,
+          "positive_cases_with_any_match": 41,
+          "matched_particles": 107,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 4
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.04666666666666667,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 48,
+          "fraction_detected_positive_with_no_matched_particle": 0.8,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 12,
+          "matched_particles": 14,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 60,
+          "detected_positive_with_no_matched_particle": 60,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.8333333333333334,
+          "fp_per_image": 0.03333333333333333
+        },
+        "ring": {
+          "sensitivity": 0.9533333333333334,
+          "fp_per_image": 0.0
+        }
+      }
+    },
+    {
+      "frequency_hz": 3000000,
+      "view_noise": "limited40",
+      "fixed_05": {
+        "localization_sensitivity": 0.13666666666666666,
+        "fp_per_image": 0.011111111111111112,
+        "fp_per_negative_image": 0.0,
+        "fp_per_positive_image": 0.016666666666666666,
+        "detected_positive_cases": 58,
+        "detected_positive_with_no_matched_particle": 31,
+        "fraction_detected_positive_with_no_matched_particle": 0.5344827586206896,
+        "fraction_detected_positive_with_all_five_matched": 0.0,
+        "positive_cases_with_any_match": 27,
+        "matched_particles": 41,
+        "truth_particles": 300,
+        "fp_negative_total": 0,
+        "fp_positive_total": 1
+      },
+      "ci95_05": {
+        "localization_sensitivity": {
+          "ci95": [
+            0.09333333333333334,
+            0.17666666666666667
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_image": {
+          "ci95": [
+            0.0,
+            0.03333333333333333
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_negative_image": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        },
+        "fp_per_positive_image": {
+          "ci95": [
+            0.0,
+            0.05
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_no_matched_particle": {
+          "ci95": [
+            0.4166666666666667,
+            0.6553185271770893
+          ],
+          "valid_replicates": 1000
+        },
+        "fraction_detected_positive_with_all_five_matched": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 1000
+        }
+      },
+      "all_prespecified_thresholds": [
+        {
+          "threshold": 0.1,
+          "localization_sensitivity": 0.6366666666666667,
+          "fp_per_image": 0.45555555555555555,
+          "fp_per_negative_image": 0.26666666666666666,
+          "fp_per_positive_image": 0.55,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 0,
+          "fraction_detected_positive_with_no_matched_particle": 0.0,
+          "fraction_detected_positive_with_all_five_matched": 0.22413793103448276,
+          "positive_cases_with_any_match": 59,
+          "matched_particles": 191,
+          "truth_particles": 300,
+          "fp_negative_total": 8,
+          "fp_positive_total": 33
+        },
+        {
+          "threshold": 0.2,
+          "localization_sensitivity": 0.5133333333333333,
+          "fp_per_image": 0.17777777777777778,
+          "fp_per_negative_image": 0.1,
+          "fp_per_positive_image": 0.21666666666666667,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 1,
+          "fraction_detected_positive_with_no_matched_particle": 0.017241379310344827,
+          "fraction_detected_positive_with_all_five_matched": 0.08620689655172414,
+          "positive_cases_with_any_match": 57,
+          "matched_particles": 154,
+          "truth_particles": 300,
+          "fp_negative_total": 3,
+          "fp_positive_total": 13
+        },
+        {
+          "threshold": 0.3,
+          "localization_sensitivity": 0.43,
+          "fp_per_image": 0.1,
+          "fp_per_negative_image": 0.03333333333333333,
+          "fp_per_positive_image": 0.13333333333333333,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 4,
+          "fraction_detected_positive_with_no_matched_particle": 0.06896551724137931,
+          "fraction_detected_positive_with_all_five_matched": 0.08620689655172414,
+          "positive_cases_with_any_match": 54,
+          "matched_particles": 129,
+          "truth_particles": 300,
+          "fp_negative_total": 1,
+          "fp_positive_total": 8
+        },
+        {
+          "threshold": 0.4,
+          "localization_sensitivity": 0.31,
+          "fp_per_image": 0.022222222222222223,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.03333333333333333,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 10,
+          "fraction_detected_positive_with_no_matched_particle": 0.1724137931034483,
+          "fraction_detected_positive_with_all_five_matched": 0.017241379310344827,
+          "positive_cases_with_any_match": 48,
+          "matched_particles": 93,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 2
+        },
+        {
+          "threshold": 0.5,
+          "localization_sensitivity": 0.13666666666666666,
+          "fp_per_image": 0.011111111111111112,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.016666666666666666,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 31,
+          "fraction_detected_positive_with_no_matched_particle": 0.5344827586206896,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 27,
+          "matched_particles": 41,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 1
+        },
+        {
+          "threshold": 0.6,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 58,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.7,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 58,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.8,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 58,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        },
+        {
+          "threshold": 0.9,
+          "localization_sensitivity": 0.0,
+          "fp_per_image": 0.0,
+          "fp_per_negative_image": 0.0,
+          "fp_per_positive_image": 0.0,
+          "detected_positive_cases": 58,
+          "detected_positive_with_no_matched_particle": 58,
+          "fraction_detected_positive_with_no_matched_particle": 1.0,
+          "fraction_detected_positive_with_all_five_matched": 0.0,
+          "positive_cases_with_any_match": 0,
+          "matched_particles": 0,
+          "truth_particles": 300,
+          "fp_negative_total": 0,
+          "fp_positive_total": 0
+        }
+      ],
+      "by_pattern_05": {
+        "line": {
+          "sensitivity": 0.06,
+          "fp_per_image": 0.0
+        },
+        "ring": {
+          "sensitivity": 0.21333333333333335,
+          "fp_per_image": 0.03333333333333333
+        }
+      }
+    }
+  ],
+  "architecture_note": "Classification uses both bicubic US and SR probability map; this audit does not establish which channel caused detection success.",
+  "hallucination_note": "GT-unmatched connected-component centroids are operational false localizations, not measurement/null-space hallucinations.",
+  "sources_sha256": {
+    "evaluation.json": "796ea35651c0550865f769378434577fc72ad227a7159f665681e8232d73262b",
+    "sr-localization-counts.npy": "c73f65480fc9dd0b7e39f56cce4ccc2ec112c6ccea5f3ba714628fc4ce1420d4",
+    "xray_sr-test-predictions.npy": "aa64a73c585c5007b099a746e58665c4dc78510d91ac7ffb8a62efa2af1b5237",
+    "phantoms.json": "5a54fd44a988d0d5d17c868f9537a77009e88d446d63a2be122e56d725fd0360"
+  },
+  "plan_sha256": "9933f4c8d5a067b34ca936ae82a8fd6296d3193ad82ce973837be84ed498d0bf"
+}

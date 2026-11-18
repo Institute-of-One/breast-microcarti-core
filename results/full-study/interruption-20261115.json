@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-15T11:45:57.616143+00:00",
+  "status": "INTERRUPTED_RESUMING",
+  "last_cpu_record_utc": "2026-11-15T02:16:31.185357+00:00",
+  "last_completed_frequency_cases": 949,
+  "remaining_cases": 11,
+  "processes_found": false,
+  "termination_cause": "UNKNOWN",
+  "unrecorded_orphan_phase_seconds": "UNKNOWN; do not substitute a fabricated duration or count entire absence as measured compute",
+  "resource_claim": "Recorded device-hours valid; exact total including orphan phase not yet verified. 24h compliance conditional on this missing duration.",
+  "frozen_hashes_match": {
+    "freeze.json": true,
+    "analysis-freeze.json": true
+  },
+  "windows_event_check": "No matching system shutdown/sleep or application crash record established cause."
+}

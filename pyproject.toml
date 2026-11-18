@@ -1,0 +1,6 @@
+[project]
+name = "breast-microcarti-core"
+version = "0.1.0"
+description = "Saved-result reproducibility for ultrasound microcalcification detection-localization dissociation"
+requires-python = ">=3.14"
+license = "MIT"

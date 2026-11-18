@@ -1,0 +1,4 @@
+# Reproduce the observed environment. No automatic installation is performed.
+numpy==2.5.1
+scipy==1.17.1
+matplotlib==3.10.8

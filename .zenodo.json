@@ -1,0 +1,23 @@
+{
+  "title": "Ultrasound microcalcification cluster imaging: detection and localization",
+  "upload_type": "software",
+  "version": "0.1.0",
+  "publication_date": "2026-11-18",
+  "description": "<p>Exploratory physics-simulated ultrasound microcalcification cluster study. Saved-result reproducibility software and numerical outputs compare direct ultrasound, conventional enhancement and an ultrasound-plus-learned-occupancy-map pathway. Detection and localization can dissociate. No actual X-ray training teacher, clinical ultrasound validation or fundamental-limit proof is claimed. Recorded experimental compute is approximately 17.18 + U device-hours, with unrecorded interrupted computation U unknown. Code MIT; original documentation/results/figures CC BY 4.0. Figure 1 is adapted from Loizidou et al., dataset version 3, DOI 10.5281/zenodo.14859694, CC BY 4.0; original clinical DICOM excluded. See repository provenance and licensing.</p>",
+  "creators": [
+    {
+      "name": "Yamamoto, Shuji",
+      "affiliation": "Institute of One, LISIT Co., Ltd., Tokyo 150-0044, Japan",
+      "orcid": "0000-0001-9211-1071"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "ultrasound",
+    "microcalcification",
+    "localization",
+    "super-resolution",
+    "reproducibility"
+  ]
+}

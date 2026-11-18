@@ -1,0 +1,72 @@
+{
+  "source_record": "https://zenodo.org/records/14859694",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "use": "Clinical-context illustration only; not AI training, validation or testing",
+  "selection": "Lexically first suspicious-group recent CC DICOM; not chosen based on model performance",
+  "files": [
+    {
+      "archive_member": "Dataset_v3/Suspicious_cases/1/CC_recent.dcm",
+      "local_name": "clinical.dcm",
+      "bytes": 27265648,
+      "sha256": "4c352a3032b8aa9067bf4b526abaed3e1c5db1c9d80fdc39eebe756b63ba37ce"
+    },
+    {
+      "archive_member": "Dataset_v3/Suspicious_cases/1/CC_recent_GT.jpg",
+      "local_name": "annotation.jpg",
+      "bytes": 610286,
+      "sha256": "6e4292034d91172e4025d9de93d6f99df77790f8a809463ebc73e3f9dd82971a"
+    }
+  ],
+  "transferred_zip_bytes": 7346074,
+  "creators": [
+    {
+      "name": "Kosmia Loizidou",
+      "affiliation": "KIOS Research and Innovation Center of Excellence, University of Cyprus",
+      "orcid": "0000-0002-0810-4926"
+    },
+    {
+      "name": "Galateia Skouroumouni",
+      "affiliation": "Radiology Department, Nicosia General Hospital",
+      "orcid": "0000-0002-6056-5797"
+    },
+    {
+      "name": "Christos Nikolaou",
+      "affiliation": "Radiology Department, Limassol General Hospital"
+    },
+    {
+      "name": "Costas Pitris",
+      "affiliation": "KIOS Research and Innovation Center of Excellence, University of Cyprus",
+      "orcid": "0000-0002-5559-1050"
+    }
+  ],
+  "title": "Breast Micro-Calcifications Dataset with Precisely Annotated Sequential Mammograms",
+  "doi": "10.5281/zenodo.14859694",
+  "display_processing": {
+    "roi_xyxy": [
+      2735,
+      1474,
+      3174,
+      1948
+    ],
+    "full_window": [
+      0,
+      4095
+    ],
+    "roi_window": [
+      294.0,
+      3289.0
+    ],
+    "roi_window_rule": "raw ROI 1st to 99.7th percentiles",
+    "pixel_spacing_mm": [
+      0.07,
+      0.07
+    ],
+    "annotation_processing": "crop only; original source blue/red marks retained",
+    "annotation_alignment": "same dimensions; source version3 correspondence, not new registration validation",
+    "no_generative_editing": true,
+    "new_patient_or_model_inference": false,
+    "visual_check_required": true,
+    "visual_check_completed": "Source DICOM preview, annotation, derived Figure 1, and Word/PDF figure page inspected"
+  }
+}

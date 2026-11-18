@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the versioned software archive and associated study."
+type: software
+title: "Ultrasound microcalcification cluster imaging: detection and localization"
+authors:
+  - family-names: Yamamoto
+    given-names: Shuji
+    affiliation: "Institute of One, LISIT Co., Ltd., Tokyo 150-0044, Japan"
+    orcid: "https://orcid.org/0000-0001-9211-1071"
+version: 0.1.0
+date-released: 2026-11-18
+license: MIT
+repository-code: "https://github.com/Institute-of-One/breast-microcarti-core"

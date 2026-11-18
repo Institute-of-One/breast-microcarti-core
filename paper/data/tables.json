@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Acquisition and model specification",
+    "headers": [
+      "Parameter",
+      "Fixed specification"
+    ],
+    "rows": [
+      [
+        "Phantoms and split",
+        "480; 160 per class; per class 100 training / 30 validation / 30 test"
+      ],
+      [
+        "Target",
+        "Five 100 um hydroxyapatite cylinders; absent, line, or ring"
+      ],
+      [
+        "Geometry",
+        "Line: \u22121,\u22120.5,0,0.5,1 mm; ring radius sqrt(0.5) mm; shared centroid and RMS radius"
+      ],
+      [
+        "Nuisance variation",
+        "Rotation 0\u20132pi; x/y shift \u00b12 mm; sound speed \u00b11%; attenuation \u00b110%; gain \u00b15%"
+      ],
+      [
+        "Background",
+        "c = 1540 m/s; density = 1041 kg/m^3; alpha0 = 8.635 Np/m/MHz^1.2"
+      ],
+      [
+        "Solid",
+        "density = 3180 kg/m^3; Young modulus = 6 GPa; Poisson ratio = 0.27"
+      ],
+      [
+        "Acquisition",
+        "110 mm radius; 32 full / 16 limited elements; 0.3 mm arc width"
+      ],
+      [
+        "Channels",
+        "992 full / 240 limited; exclude co-located transmitter/receiver"
+      ],
+      [
+        "Pulse and sampling",
+        "1 / 3 MHz; 80% \u22126 dB bandwidth; 20 MHz sampling; 4096 samples"
+      ],
+      [
+        "Frequency and angular grid",
+        "0.1\u20138 MHz; 1618 FFT bins; angular orders \u221216 to 16"
+      ],
+      [
+        "Noise",
+        "Reference SNR 20 / 40 dB; shared absolute noise calibration"
+      ],
+      [
+        "Noise reference",
+        "Separate nominal fat reference: c = 1440.2 m/s; alpha0 = 4.3578 Np/m/MHz^1.2; 0.22 m path at 1 MHz"
+      ],
+      [
+        "Map grids",
+        "128 x 128 at 64 um; SR occupancy 256 x 256 at 32 um"
+      ],
+      [
+        "Training",
+        "Adam 0.001; batch 8; 30 epochs; seed 20261115; validation-best checkpoint"
+      ],
+      [
+        "Localization",
+        "Four-connected components; intensity-weighted centroids; 150 um one-to-one matching"
+      ]
+    ],
+    "note": "The background is known to the inverse model. Noise labels are referenced to a fixed diametric signal, not lesion-specific SNR. Acquisition views do not have matched total transmission counts."
+  },
+  {
+    "title": "Presence detection ROC AUC",
+    "headers": [
+      "Condition",
+      "Direct US",
+      "Enhanced",
+      "US + SR map"
+    ],
+    "rows": [
+      [
+        "1 MHz full20",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)"
+      ],
+      [
+        "1 MHz limited20",
+        "0.994 (0.982\u20131.000)",
+        "0.992 (0.973\u20131.000)",
+        "0.989 (0.967\u20131.000)"
+      ],
+      [
+        "1 MHz full40",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)"
+      ],
+      [
+        "1 MHz limited40",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)"
+      ],
+      [
+        "3 MHz full20",
+        "0.539 (0.413\u20130.660)",
+        "0.567 (0.441\u20130.680)",
+        "0.584 (0.460\u20130.692)"
+      ],
+      [
+        "3 MHz limited20",
+        "0.459 (0.337\u20130.591)",
+        "0.436 (0.318\u20130.557)",
+        "0.520 (0.402\u20130.635)"
+      ],
+      [
+        "3 MHz full40",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)",
+        "1.000 (1.000\u20131.000)"
+      ],
+      [
+        "3 MHz limited40",
+        "0.986 (0.958\u20131.000)",
+        "0.964 (0.926\u20130.991)",
+        "0.981 (0.942\u20131.000)"
+      ]
+    ],
+    "note": "Parentheses are 95% stratified phantom-bootstrap intervals, conditional on the fitted models; 90 test phantoms per condition. Saturated empirical intervals are not zero population uncertainty."
+  },
+  {
+    "title": "Paired detection and localization in the US plus SR pathway",
+    "headers": [
+      "Condition",
+      "Detection TP",
+      "Matched particles",
+      "TP with no match",
+      "FP / positive",
+      "FP / negative"
+    ],
+    "rows": [
+      [
+        "1 MHz full20",
+        "60/60",
+        "79/300",
+        "17/60",
+        "2.250",
+        "0.000"
+      ],
+      [
+        "1 MHz limited20",
+        "56/60",
+        "142/300",
+        "3/56",
+        "0.700",
+        "0.000"
+      ],
+      [
+        "1 MHz full40",
+        "60/60",
+        "0/300",
+        "60/60",
+        "24.183",
+        "0.000"
+      ],
+      [
+        "1 MHz limited40",
+        "60/60",
+        "12/300",
+        "50/60",
+        "12.067",
+        "0.000"
+      ],
+      [
+        "3 MHz full20",
+        "10/60",
+        "0/300",
+        "10/10",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "3 MHz limited20",
+        "5/60",
+        "0/300",
+        "5/5",
+        "0.017",
+        "0.000"
+      ],
+      [
+        "3 MHz full40",
+        "60/60",
+        "268/300",
+        "0/60",
+        "0.017",
+        "0.000"
+      ],
+      [
+        "3 MHz limited40",
+        "58/60",
+        "41/300",
+        "31/58",
+        "0.017",
+        "0.000"
+      ]
+    ],
+    "note": "SR threshold 0.5 and 150 um matching. TP means correctly detected positive phantom. FP denotes unmatched candidate centroids. Positive/negative denominators are 60/30; the paired counts and FP strata are exploratory saved-output analyses."
+  }
+]

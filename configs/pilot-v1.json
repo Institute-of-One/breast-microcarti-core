@@ -1,0 +1,33 @@
+{
+  "version": "pilot-v1",
+  "deadline_jst": "2026-11-18T18:00:00+09:00",
+  "radius_m": 0.11,
+  "element_width_m": 0.0003,
+  "full_elements": 32,
+  "diameters_um": [50, 100, 150, 200, 300, 500],
+  "center_frequencies_hz": [1000000, 3000000],
+  "snr_db": [20, 40],
+  "sample_rate_hz": 20000000,
+  "samples": 4096,
+  "modes": 16,
+  "pulse_t0_s": 0.000005,
+  "fractional_bandwidth": 0.8,
+  "min_frequency_hz": 100000,
+  "max_frequency_hz": 8000000,
+  "attenuation_power": 1.2,
+  "backgrounds": {
+    "fat": {"c": 1440.2, "rho": 911, "alpha0": 4.3578},
+    "glandular": {"c": 1540.0, "rho": 1041, "alpha0": 8.635}
+  },
+  "materials": {
+    "hap": {"rho": 3180, "young_pa": 6000000000, "poisson": 0.27},
+    "calcium_oxalate": {"rho": 2200, "young_pa": 50380000000, "poisson": 0.32}
+  },
+  "replicates_per_class": 1000,
+  "threshold_replicates": 1000,
+  "bootstrap_replicates": 200,
+  "seed": 20261114,
+  "max_run_seconds": 3600,
+  "total_device_hours_cap": 24,
+  "convergence_relative_tolerance": 0.05
+}
